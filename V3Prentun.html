@@ -48,31 +48,41 @@
 							<!-- git add .  // git commit -m "Test?" // git push -->
 							<h3>Download</h3>
 							<p>Til að gera 3D teikningu notaði ég 
-								<a href="https://www.autodesk.com/products/fusion-360/overview?" blank="">Fusion-360</a> 
-								og <a href="https://www.prusa3d.com/en/page/prusaslicer_424/" blank="">PrusaSlicer</a>.
+								<a href="https://www.autodesk.com/products/fusion-360/overview?" target="blank">Fusion-360</a> 
+								og <a href="https://www.prusa3d.com/en/page/prusaslicer_424/" target="blank">PrusaSlicer</a>.
 								Ég horfði ekki á nein myndibönd fyrir þetta verkefni.</p>  
 							<br>
 							
 
 							<h3>Teiknun</h3>
 							<p>Teikningin var gerð í
-								<a href="https://www.autodesk.com/products/fusion-360/overview?" blank="">Fusion 360</a>
+								<a href="https://www.autodesk.com/products/fusion-360/overview?" target="blank">Fusion 360</a>
 								 
 							</p>
 							
 							<h5>Tilraun 1</h5>
-							<p>Í tilraun 1 gerði ég hringlagaða rennibraut þangað til að ég fattaði að það væri ómögulegt 
+							<p>Í tilraun 1 
+								gerði ég hringlagaða rennibraut þangað til að ég fattaði að það væri ómögulegt 
 									að gera einhvað svona lítið hringlagt með 3D prentun og vonast eftir sléttum hring.<br>
 								<img src="./images2/V3_Fusion_r1.jpg" height="200">
 							</p>
 
 							<h5>Tilraun 2</h5>
-							<p>Í tilraun 2 gerði ég ferkantaðan coil  með annan ferkantaðan coil sem gerir holu í rennibrautinn.
+							<p>Tilraun 2 er plata með lengd og breidd = box (50mm) og efnisþykkt =num*thicc (3*0.5mm). 
+								Hugmyndin á með num og thick var að prentarinn myndi fara ákveðið oft yfir svæði sem væri
+								tengt num, thick er bara nuzzel size (0.05mm)*10. Ef num er 3 fer prentarinn 30 sinnum yfir.
+								<br><img src="./images2/V3_Parameters.jpg" height="350"><br>
+
+								Svo gerði ég ferkantaðan coil með annan ferkantaðan coil inn í sem gerir holu í rennibrautinn.
+								<br><img src="./images2/V3_coilT2.jpg" height="200"><br>
 								Erfiðasti parturinn í þessu var að hana baðkarið í enda rennibrautinnar þannig að stærðin 
-								myndi breytast með Parametrísktum stærðum. Box=undirplata, thick = 0.5mm og num = 3.<br>
+								myndi breytast með Parametrísktum stærðum. 
+								<br>
 								Formúlan (box/4-num*thick*2)/2-rennibraut_radius. 
 							</p>
-							<img src="./images2/V3_Fusion_m3.jpg" height="200"><br>
+							<img src="./images2/V3_Fusion_m3.jpg" height="350"><br>
+							
+							<p>Box=lengd undirplötu, num = 3 (einingarlaust) og thick = 0.5mm.</p>
 							<br>
 
 							<h3>Stillingar í PrusaSlicer</h3>
@@ -113,12 +123,12 @@
 								ná supportinu af og ég áhvað að nota naglaklippur. Við notkun naglaklippa klipti
 								ég endana og reif af supportið. Það tók um klukkutíma að ná þessu af.
 							</p>
-							<p>Á endanum gat ég ekki tekið ein bita af</p>
+							
 
 							<h4>Vandamál 2</h4>
 							<p>Seinna vandamálið er að rennibrauts holan er fyllt með support og því er ekki mögulegt að setja
 								einhvað inn í hana og láta það renna niður.
-							</p><img src="./images2/V3_Hola.jpg" height="200">
+							</p><img src="./images2/V3_hola2.jpg" height="400">
 							
 
 
